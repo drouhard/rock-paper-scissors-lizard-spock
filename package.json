@@ -1,0 +1,39 @@
+{
+  "name": "rock-paper-scissors-lizard-spock",
+  "version": "1.0.0",
+  "description": "An implementation of Rock, Paper, Scissors, Lizard, Spock",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests --recursive --watch --compilers js:babel-core/register",
+    "webpack": "$(npm bin)/webpack --watch --display-modules --progress",
+    "build": "$(npm bin)/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drouhard/rock-paper-scissors-lizard-spock.git"
+  },
+  "author": "matt drouhard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drouhard/rock-paper-scissors-lizard-spock/issues"
+  },
+  "homepage": "https://github.com/drouhard/rock-paper-scissors-lizard-spock#readme",
+  "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "body-parser": "^1.15.2",
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "firebase": "^3.4.0",
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.2",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "sinon": "^1.17.6",
+    "socket.io": "^1.4.8",
+    "superagent": "^2.3.0",
+    "webpack": "^1.13.2"
+  }
+}

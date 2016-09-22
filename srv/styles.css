@@ -1,0 +1,79 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont,
+                "Segoe UI", "Roboto", "Oxygen",
+                "Ubuntu", "Cantarell", "Fira Sans",
+                "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #e7f3ff;
+}
+
+h1, h2, p {
+    margin-bottom: 1rem;
+}
+
+.connection-banner {
+    background: #ff0d0d;
+    font-size: 15px;
+    font-family: serif;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 3px;
+}
+
+.connection-banner.active {
+    background: #80fd80;
+}
+
+main {
+    margin: 2rem auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+header, footer {
+    text-align: center;
+}
+
+label {
+    padding-right: 10px;
+}
+
+input {
+    font-size: 1rem;
+}
+
+.submit-name {
+    padding: 5px;
+    line-height: 17px;
+    vertical-align: top;
+}
+
+.results {
+    margin: 2rem auto;
+}
+
+.results ul {
+    padding: 0 0 1rem;
+    list-style: none;
+}
+
+.play-choice {
+    padding: 10px;
+    border-radius: 10%;
+    margin: 1vw 1vw 1vw 0;
+}
+
+.high-scores {
+    list-style-type: none;
+}
